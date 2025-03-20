@@ -4,8 +4,10 @@ package com.example.memo.dto;
 
 import lombok.Getter;
 
+// 요청 데이터를 처리하는 객체
 @Getter
 public class MemoRequestDto {
+        // 요청 받을 데이터
         private String title;
-        private String content;
+        private String contents;
 }
